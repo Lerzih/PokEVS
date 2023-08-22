@@ -6,8 +6,3 @@ export type Pokemon = {
     weight: number,
     sprite: string
 }
-
-export interface IPokemon {
-    getPokemon: (id: number) => Promise<Pokemon>,
-    getAllPokemon: () => Promise<Pokemon[]>
-}
