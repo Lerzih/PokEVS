@@ -1,4 +1,4 @@
-import axios, { AxiosInstance } from "axios";
+import { AxiosInstance } from "axios";
 import { PokemonService } from "../../domain/services/PokemonServices";
 import { mapJsonToPokemon } from "./PokemonMapper";
 import { Pokemon } from "../../domain/models/Pokemon";
